@@ -1,10 +1,10 @@
-
-using RickAndMortyApp.Views;
+using RickAndMortyApp.Models;
 using RickAndMortyApp.Services.Interfaces;
+using RickAndMortyApp.Views;
 
 namespace RickAndMortyApp.Controllers;
 
-public class CharacterController
+public class CharacterController : ListControllerBase<Character>
 {
     private readonly IRickAndMortyService _service;
     private readonly CharacterView _view;
@@ -15,13 +15,9 @@ public class CharacterController
         _view = view;
     }
 
-    public async Task ShowAsync()
-    {
-        var response = await _service.GetCharactersAsync();
+    protected override Task<ApiResponse<Character>?> FetchAsync(int page, string? name)
+        => _service.GetCharactersAsync(page, name);
 
-        if (response == null) ConsoleHelper.WriteError("Não foi possível obter os personagens.");
-        else _view.ShowList(response, 1);
-
-        ConsoleHelper.WaitForKey();
-    }
+    protected override void Display(ApiResponse<Character> response, int page)
+        => _view.ShowList(response, page);
 }

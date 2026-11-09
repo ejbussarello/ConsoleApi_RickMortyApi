@@ -1,4 +1,4 @@
-using RickAndMortyApi.Controller;
+using RickAndMortyApp.Controllers;
 using RickAndMortyApp.Views;
 
 namespace RickAndMortyApp.Controllers;

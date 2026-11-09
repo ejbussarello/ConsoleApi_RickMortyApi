@@ -1,10 +1,10 @@
-
+using RickAndMortyApp.Models;
 using RickAndMortyApp.Services.Interfaces;
 using RickAndMortyApp.Views;
 
 namespace RickAndMortyApp.Controllers;
 
-public class LocationController
+public class LocationController : ListControllerBase<Location>
 {
     private readonly IRickAndMortyService _service;
     private readonly LocationView _view;
@@ -15,13 +15,9 @@ public class LocationController
         _view = view;
     }
 
-    public async Task ShowAsync()
-    {
-        var response = await _service.GetLocationsAsync();
+    protected override Task<ApiResponse<Location>?> FetchAsync(int page, string? name)
+        => _service.GetLocationsAsync(page, name);
 
-        if (response == null) ConsoleHelper.WriteError("Não foi possível obter as localizações.");
-        else _view.ShowList(response, 1);
-
-        ConsoleHelper.WaitForKey();
-    }
+    protected override void Display(ApiResponse<Location> response, int page)
+        => _view.ShowList(response, page);
 }

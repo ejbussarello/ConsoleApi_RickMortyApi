@@ -1,9 +1,10 @@
+using RickAndMortyApp.Models;
 using RickAndMortyApp.Services.Interfaces;
 using RickAndMortyApp.Views;
 
-namespace RickAndMortyApi.Controller;
+namespace RickAndMortyApp.Controllers;
 
-public class EpisodeController
+public class EpisodeController : ListControllerBase<Episode>
 {
     private readonly IRickAndMortyService _service;
     private readonly EpisodeView _view;
@@ -14,13 +15,9 @@ public class EpisodeController
         _view = view;
     }
 
-    public async Task ShowAsync()
-    {
-        var response = await _service.GetEpisodesAsync();
+    protected override Task<ApiResponse<Episode>?> FetchAsync(int page, string? name)
+        => _service.GetEpisodesAsync(page, name);
 
-        if (response == null) ConsoleHelper.WriteError("Não foi possível obter os episódios.");
-        else _view.ShowList(response, 1);
-
-        ConsoleHelper.WaitForKey();
-    }
+    protected override void Display(ApiResponse<Episode> response, int page)
+        => _view.ShowList(response, page);
 }

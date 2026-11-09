@@ -1,6 +1,6 @@
 ﻿using System.Text;
 using Microsoft.Extensions.DependencyInjection;
-using RickAndMortyApi.Controller;
+
 using RickAndMortyApp.Controllers;
 using RickAndMortyApp.Services;
 using RickAndMortyApp.Services.Interfaces;

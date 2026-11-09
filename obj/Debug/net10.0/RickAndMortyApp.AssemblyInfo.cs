@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RickAndMortyApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bea22e49bfd1c7f15a610bc015739d2150bf33ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0131f33a68645845bd6718b7fb87e8c93de98b32")]
 [assembly: System.Reflection.AssemblyProductAttribute("RickAndMortyApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RickAndMortyApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
