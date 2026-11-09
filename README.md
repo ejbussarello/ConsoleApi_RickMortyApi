@@ -17,20 +17,7 @@ Este projeto foi criado com um objetivo didático: mostrar, passo a passo, como 
 
 ### Exemplo de saída
 
-```
-=== PERSONAGENS ===
-
-#1 Rick Sanchez - Alive
-   Espécie: Human | Gênero: Male
-   Origem: Earth (C-137)
-   Local atual: Citadel of Ricks
-   Aparições: 51 episódio(s)
-
-Página 1 de 42 | Total de registros: 826
-
-[N] Próxima  [B] Buscar por nome  [0] Voltar
->
-```
+<img width="442" height="478" alt="image" src="https://github.com/user-attachments/assets/4eb820c5-a20e-4957-8611-aa72281373c5" />
 
 ---
 
@@ -47,21 +34,18 @@ Página 1 de 42 | Total de registros: 826
 **Pré-requisito:** [.NET SDK](https://dotnet.microsoft.com/download) instalado (versão compatível com o `.csproj` do projeto).
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/ejbussarello/ConsoleApi_RickMortyApi.git
+cd ConsoleApi_RickMortyApi
 dotnet run
 ```
 
 Ao iniciar, use o menu:
 
-| Opção | Ação |
-|---|---|
-| `1` | Personagens |
-| `2` | Localizações |
-| `3` | Episódios |
-| `0` | Sair |
+<img width="300" height="180" alt="image" src="https://github.com/user-attachments/assets/37300113-91d7-4d74-9377-7d300c1eab90" />
 
-Dentro de uma listagem: `N` próxima página, `P` página anterior, `B` buscar por nome, `0` voltar.
+Dentro de uma listagem:
+
+<img width="418" height="64" alt="image" src="https://github.com/user-attachments/assets/12061569-21ff-4700-a6e0-20eb91b5e445" />
 
 ---
 
