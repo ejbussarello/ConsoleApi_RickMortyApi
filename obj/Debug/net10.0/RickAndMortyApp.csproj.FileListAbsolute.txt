@@ -1,0 +1,14 @@
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.AssemblyInfoInputs.cache
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.AssemblyInfo.cs
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.csproj.CoreCompileInputs.cache
+D:\Workspace\MyProjects\RickAndMortyApp\bin\Debug\net10.0\RickAndMortyApp.exe
+D:\Workspace\MyProjects\RickAndMortyApp\bin\Debug\net10.0\RickAndMortyApp.deps.json
+D:\Workspace\MyProjects\RickAndMortyApp\bin\Debug\net10.0\RickAndMortyApp.runtimeconfig.json
+D:\Workspace\MyProjects\RickAndMortyApp\bin\Debug\net10.0\RickAndMortyApp.dll
+D:\Workspace\MyProjects\RickAndMortyApp\bin\Debug\net10.0\RickAndMortyApp.pdb
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.dll
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\refint\RickAndMortyApp.dll
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.pdb
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.genruntimeconfig.cache
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\ref\RickAndMortyApp.dll
