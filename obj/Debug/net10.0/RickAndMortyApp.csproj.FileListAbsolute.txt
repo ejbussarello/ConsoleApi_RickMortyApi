@@ -12,3 +12,4 @@ D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\refint\RickAndMortyApp
 D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.pdb
 D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.genruntimeconfig.cache
 D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\ref\RickAndMortyApp.dll
+D:\Workspace\MyProjects\RickAndMortyApp\obj\Debug\net10.0\RickAndMortyApp.sourcelink.json

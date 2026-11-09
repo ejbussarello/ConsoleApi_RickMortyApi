@@ -14,7 +14,8 @@ public class RickAndMortyService : IRickAndMortyService
         _httpClient.BaseAddress = new Uri("https://rickandmortyapi.com/api/");
     }
 
-    public Task<ApiResponse<Character>?> GetCharactersAsync(int page = 1)
+    public Task<ApiResponse<Character>?> 
+    GetCharactersAsync(int page = 1)
         => GetPageAsync<Character>("character", page);
 
     public Task<ApiResponse<Location>?> GetLocationsAsync(int page = 1)

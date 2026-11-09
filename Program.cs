@@ -1,7 +1,10 @@
 ﻿using RickAndMortyApp.Services;
+using RickAndMortyApp.Views;
 
 var service = new RickAndMortyService(new HttpClient());
-var result = await service.GetCharactersAsync();
 
-Console.WriteLine($"Total de personagens: {result?.Info.Count}");
-Console.WriteLine($"Primeiro: {result?.Results.FirstOrDefault()?.Name}");
+var characters = await service.GetCharactersAsync();
+if (characters != null)
+{
+    new CharacterView().ShowList(characters, 1);
+}
