@@ -1,4 +1,4 @@
-using RickAndMortyApi.Views;
+using RickAndMortyApp.Views;
 
 namespace RickAndMortyApp.Views;
 

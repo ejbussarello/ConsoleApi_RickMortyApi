@@ -1,6 +1,6 @@
 using RickAndMortyApp.Models;
 
-namespace RickAndMortyApi.Views;
+namespace RickAndMortyApp.Views;
 
 public static class ConsoleHelper
 {

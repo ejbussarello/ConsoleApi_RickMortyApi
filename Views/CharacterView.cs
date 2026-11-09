@@ -1,5 +1,5 @@
 
-using RickAndMortyApi.Views;
+using RickAndMortyApp.Views;
 using RickAndMortyApp.Models;
 
 namespace RickAndMortyApp.Views;
